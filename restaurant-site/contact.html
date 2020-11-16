@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Us</title>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+	<style>
+		img {
+			width: 300px;
+		}
+		body {
+			background-color: #FFFCF2;
+			font-family: 'Open Sans', sans-serif;
+		}
+		h1 {
+			color: #252422;
+		}
+
+		h2 {
+			color: #EB5E28;
+		}
+
+		h3 {
+			color: #403D39;
+
+		}
+
+		.call-to-action {
+			color: #FFFCF2;
+			background-color: #EB5E28;
+			padding: 5px;
+			margin: 20px;
+			text-decoration: none;
+		}
+
+		button {
+			color: #FFFCF2;
+			background-color: #eb5e28;
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Welcome to Unique Recipes</h1>
+
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+	</ul>
+
+	<h2>Contact Us</h2>
+
+	<form method="POST" action="https://webhook.site/a6aec483-e930-40c7-8233-754049cefe8f">
+
+		<label for="firstName">First Name</label>
+		<input type="text" name="firstName" id="firstName" placeholder="First Name" required />
+		<br/>
+
+		<label for="lastName">Last Name</label>
+		<input type="text" name="lastName" id="lastName" placeholder="Last Name" required />
+		<br/>
+
+		<label for="email">Email Address</label>
+		<input type="email" name="email" id="email" placeholder="you@email.com" required />
+		<br/>
+
+		<label for="phone">Telephone #</label>
+		<input type="tel" name="phone" placeholder="123-456-7890"required /> <br/>
+
+		<label for="message">Message</label>
+		<textarea name="message" id="message" cols="30" rows="10" placeholder="How can we help you?"></textarea>
+		<br/>
+
+
+
+		<button>Contact Us</button>
+
+	</form>
+</body>
+</html>
